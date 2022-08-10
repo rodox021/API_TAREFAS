@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API_TAREFAS</name>
+    </assembly>
+    <members>
+        <member name="M:API_TAREFAS.Controllers.LoginController.GetLogin(API_TAREFAS.Domain.Models.ViewModels.User.VMUserLogin)">
+            <summary>
+            Este serviço autentica o usuário ativo e cadastrado.
+            </summary>
+            <param name="login"></param>
+            <returns>Retorna Status OK, dados do usuário e o token.</returns> 
+        </member>
+    </members>
+</doc>
